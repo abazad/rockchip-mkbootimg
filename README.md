@@ -1,7 +1,7 @@
 rockchip-mkbootimg
 ==================
 
-build boot &amp; recovery without android tree
+build boot &amp; recovery without android tree (android 4.2.2 )
 
 
 cd rockchip-mkbootimg
