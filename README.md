@@ -5,7 +5,9 @@ build boot &amp; recovery without android tree
 
 
 cd rockchip-mkbootimg
+
 cc -O2 -Wall -Wextra -o mkbootimg mkbootimg.c -lcrypto
+
 cc -O2 -Wall -Wextra -o unpackbootimg unpackbootimg.c
 
 unpackbootimg -i recovery.img
